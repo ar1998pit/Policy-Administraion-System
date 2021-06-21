@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+jwt:
+  secretKey: a!m@12itha!m@12itha!m@12itha!m@12itha!m@12itha!m@12itha!m@12itha!m@12ith
+  tokenPrefix: Bearer
+  tokenExpirationDate: 14
+  tokenHeader: Authorization
+  claimsName: authorities
+  authority: authority
+  
+AUTHORIZATION_SERVICE: https://pod4pas.s3.amazonaws.com/authorities.jar
+
+POLICY_SERVICE: https://pod4pas.s3.amazonaws.com/policy.jar
+
+CONSUMER_SERVICE: https://pod4pas.s3.amazonaws.com/consumer.jar
